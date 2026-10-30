@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8faff">
+  <meta name="description" content="เว็บไซต์สื่อการเรียนรู้เรื่องกีฬาลีลาศ Ballroom Dance ครอบคลุม 11 จังหวะ ประวัติ ผู้แข่งขัน และหลักเกณฑ์การให้คะแนน">
+  <title>กีฬาลีลาศ | Ballroom Dance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap');
+:root{--blue:#3978f6;--royal:#5278f5;--violet:#8b75f5;--lavender:#c7b8ff;--ice:#b8dfff;--bg:#f8faff;--navy:#202842;--muted:#64748b;--border:#e5eaf5;--gradient:linear-gradient(135deg,#3978f6 0%,#697af7 50%,#a68bfa 100%);--glass:rgba(255,255,255,.78);--shadow:0 18px 55px rgba(56,83,145,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:110px}body{margin:0;color:var(--navy);font-family:'Sarabun',sans-serif;background-color:var(--bg);background-image:linear-gradient(rgba(82,120,245,.075) 1px,transparent 1px),linear-gradient(90deg,rgba(82,120,245,.075) 1px,transparent 1px),radial-gradient(circle at 15% 10%,rgba(184,223,255,.28),transparent 35%),radial-gradient(circle at 85% 35%,rgba(199,184,255,.22),transparent 35%);background-size:28px 28px,28px 28px,auto,auto;background-attachment:fixed;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}.aurora{position:fixed;z-index:-1;pointer-events:none;border-radius:50%;filter:blur(80px);opacity:.28}.aurora-one{width:300px;height:300px;background:#b8dfff;top:22%;left:-180px}.aurora-two{width:360px;height:360px;background:#c7b8ff;right:-220px;top:58%}.site-header{position:sticky;top:14px;z-index:50;padding:0 22px;margin-top:14px}.nav-shell{max-width:1320px;margin:auto;min-height:70px;padding:9px 14px 9px 18px;display:flex;align-items:center;gap:18px;border:1px solid rgba(255,255,255,.9);border-radius:24px;background:rgba(255,255,255,.76);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 12px 40px rgba(48,69,124,.09)}.brand{width:54px;height:48px;display:flex;align-items:center;justify-content:center;flex:none}.brand img{width:100%;height:100%;object-fit:contain}.nav-links{display:flex;align-items:center;justify-content:flex-end;gap:3px;flex:1}.nav-links a{font-size:13px;font-weight:600;color:#53617d;padding:10px 12px;border-radius:14px;white-space:nowrap;transition:.25s}.nav-links a:hover,.nav-links a.active{color:#fff;background:var(--gradient);box-shadow:0 7px 18px rgba(82,120,245,.2)}.menu-toggle{display:none;border:0;background:#eef2ff;border-radius:12px;width:44px;height:42px;padding:10px;cursor:pointer}.menu-toggle span{display:block;height:2px;background:#5269c9;margin:5px 0;border-radius:3px}.section-wrap{width:min(1160px,calc(100% - 44px));margin-inline:auto}.hero{min-height:660px;d
+isplay:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:30px;padding-top:60px;padding-bottom:65px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#7182b7;font-size:11px;font-weight:700;letter-spacing:1.7px}.eyebrow-dot{width:8px;height:8px;border-radius:50%;background:var(--violet);box-shadow:0 0 0 5px rgba(139,117,245,.12)}h1,h2,h3{font-family:'Kanit',sans-serif;margin-top:0}.hero h1{font-size:clamp(48px,6.2vw,78px);line-height:1.14;letter-spacing:-1.5px;margin:22px 0 18px;font-weight:600}.gradient-text{background:var(--gradient);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-lead{font-size:20px;line-height:1.65;font-weight:600;max-width:590px;margin:0 0 12px}.hero-description{font-size:16px;line-height:1.8;color:var(--muted);max-width:540px;margin:0}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{min-height:49px;padding:0 22px;border-radius:15px;display:inline-flex;align-items:center;justify-content:center;gap:13px;font-weight:700;font-size:14px;transition:transform .25s,box-shadow .25s,filter .25s}.btn:hover{transform:translateY(-3px);filter:saturate(1.1)}.btn-primary{background:var(--gradient);color:white;box-shadow:0 12px 25px rgba(82,120,245,.25)}.btn-secondary{background:rgba(255,255,255,.8);border:1px solid var(--border);color:#52638d}.hero-facts{display:flex;align-items:center;gap:22px;margin-top:42px}.hero-facts div{display:grid;gap:2px}.hero-facts strong{font:600 25px 'Kanit';color:#5278d9}.hero-facts span{font-size:12px;color:var(--muted)}.hero-facts i{height:32px;width:1px;background:#dce3f3}.hero-art{height:510px;position:relative;display:grid;place-items:center}.hero-image-frame{width:min(100%,470px);height:440px;border-radius:46% 46% 34px 34px;overflow:hidden;position:relative;z-index:2;border:8px solid rgba(255,255,255,.72);box-shadow:0 28px 70px rgba(72,88,165,.18);background:linear-gradient(145deg,#dceeff,#e8e2ff)}.hero-image-frame:after{content:"";position:absolute;inset:0;background:linear-gradient(145deg,rgba(57,1
+20,246,.08),rgba(139,117,245,.08));pointer-events:none}.hero-image-frame img{width:100%;height:100%;object-fit:cover}.art-orbit{position:absolute;border:1px solid rgba(113,139,239,.25);border-radius:50%;z-index:1}.orbit-a{width:520px;height:520px}.orbit-b{width:440px;height:440px;border-style:dashed}.floating-note{position:absolute;z-index:3;display:flex;align-items:center;gap:12px;padding:13px 17px;border:1px solid rgba(255,255,255,.9);border-radius:17px;background:rgba(255,255,255,.85);backdrop-filter:blur(15px);box-shadow:var(--shadow)}.floating-note b,.floating-note small{display:block}.floating-note b{font:500 13px 'Kanit'}.floating-note small{font-size:10px;color:var(--muted)}.note-top{top:55px;left:-10px}.note-bottom{right:-5px;bottom:45px}.note-icon{width:37px;height:37px;border-radius:12px;background:#edf3ff;color:#5578e8;display:grid;place-items:center;font-size:24px}.note-number{font:600 25px 'Kanit';color:#8b75f5}.section-block{padding-top:82px;padding-bottom:28px}.section-heading{text-align:center;max-width:760px;margin:0 auto 42px}.section-heading h2{font-size:clamp(30px,4vw,43px);line-height:1.3;margin:12px 0 9px}.section-heading>p{color:var(--muted);line-height:1.8;margin:0;font-size:15px}.glass-card{background:var(--glass);border:1px solid rgba(255,255,255,.95);box-shadow:var(--shadow);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.intro-quote{max-width:930px;margin:auto;border-radius:24px;padding:34px 42px;position:relative}.quote-mark{position:absolute;top:8px;left:18px;font:700 72px Georgia;color:rgba(82,120,245,.18)}.intro-quote p{font-size:17px;line-height:1.9;margin:0 0 10px;position:relative}.intro-quote p:last-child{margin-bottom:0;font-weight:700;color:#5672ce}.intro-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}.stat-card{padding:25px;border-radius:20px;min-height:170px}.stat-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:13px;background:#edf2ff;color:#6680e8;font-size:22px;margin-bottom:13px}.stat-card strong{
+font:500 19px 'Kanit'}.stat-card p{color:var(--muted);font-size:14px;line-height:1.7;margin:5px 0 0}.type-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.type-card{padding:32px 34px;border-radius:26px;position:relative;overflow:hidden;min-height:330px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.9)}.standard-card{background:linear-gradient(140deg,rgba(225,241,255,.94),rgba(255,255,255,.86))}.latin-card{background:linear-gradient(140deg,rgba(239,231,255,.94),rgba(255,255,255,.87))}.type-top{display:flex;align-items:center;justify-content:space-between}.type-label,.group-kicker{font-size:10px;letter-spacing:1.5px;font-weight:700;color:#7385ba}.type-count{font:600 44px 'Kanit';line-height:1;background:var(--gradient);-webkit-background-clip:text;background-clip:text;color:transparent}.type-card h3{font-size:25px;margin:17px 0 0}.type-card>p{color:var(--muted);margin:2px 0 17px}.type-card ol{padding-left:21px;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 15px;font-weight:600;font-size:14px;position:relative;z-index:2}.type-decoration{position:absolute;right:25px;bottom:-70px;font:700 230px 'Kanit';color:rgba(82,120,245,.06);pointer-events:none}.latin-card .type-decoration{color:rgba(139,117,245,.07)}.rhythm-group{margin-top:34px}.group-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:17px;padding:0 3px}.group-heading h3{font-size:22px;margin:4px 0 0}.group-pill{padding:8px 14px;border-radius:30px;font-size:12px;font-weight:700}.blue-pill{background:#e8f2ff;color:#4678d9}.violet-pill{background:#f0eaff;color:#8068d5}.rhythm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.rhythm-card{border-radius:21px;overflow:hidden;background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.95);box-shadow:var(--shadow);transition:transform .28s,box-shadow .28s}.rhythm-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(56,83,145,.15)}.rhythm-image{height:210px;background:linear-gradient(135deg,#e4efff,#eee9ff);overflow:hid
+den;position:relative}.rhythm-image img{width:100%;height:100%;object-fit:cover;filter:blur(2.4px);transform:scale(1.035);transition:transform .4s}.rhythm-card:hover .rhythm-image img{transform:scale(1.08)}.rhythm-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,43,82,.02),rgba(28,43,82,.12));pointer-events:none}.rhythm-image .image-fallback{position:absolute;inset:0;display:grid;place-items:center;color:#8395c4;font-size:13px}.rhythm-body{padding:19px 20px 20px}.rhythm-meta{display:flex;align-items:center;justify-content:space-between;gap:10px}.rhythm-index{font:600 12px 'Kanit';color:#7a8bc0}.rhythm-tag{font-size:10px;color:#6579bd;background:#eef2ff;border-radius:30px;padding:5px 9px}.rhythm-body h4{font:500 20px 'Kanit';margin:10px 0 0}.rhythm-body .english{color:#7b88a4;font-size:12px;margin:0 0 8px}.rhythm-body .short{color:var(--muted);font-size:13px;line-height:1.65;min-height:42px;margin:0 0 15px}.detail-btn{border:0;background:none;padding:0;color:#5578dc;font-weight:700;font-size:13px;cursor:pointer}.detail-btn:hover{color:#8b75f5}.history-note{display:flex;gap:13px;align-items:center;max-width:850px;margin:0 auto 28px;padding:15px 19px;border-radius:16px}.history-note span{width:27px;height:27px;flex:none;border-radius:50%;display:grid;place-items:center;color:#fff;background:var(--gradient);font-weight:700}.history-note p{margin:0;color:#5e6e91;font-size:13px;line-height:1.65}.timeline{max-width:900px;margin:0 auto;position:relative;padding:6px 0}.timeline:before{content:"";position:absolute;left:24px;top:15px;bottom:20px;width:3px;border-radius:5px;background:linear-gradient(180deg,#65a5f5,#a68bfa)}.timeline-item{position:relative;padding-left:70px;margin:0 0 19px}.timeline-dot{position:absolute;left:14px;top:22px;width:23px;height:23px;border:5px solid #fff;border-radius:50%;background:var(--gradient);box-shadow:0 0 0 3px rgba(111,132,239,.16);z-index:1}.timeline-card{border-radius:18px;padding:21px 25px}.timeline-date{font-size:11px;font-weight:700;color:#
+6e7fd0;letter-spacing:.6px}.timeline-card h3{font-size:19px;margin:4px 0 7px}.timeline-card p{font-size:14px;line-height:1.85;color:var(--muted);margin:0}.history-full{max-width:830px;margin:22px auto 0;padding:20px 24px;border-radius:17px;color:#5d6b89;line-height:1.8;font-size:14px}.competitor-card{max-width:850px;margin:auto;padding:30px 38px;border-radius:25px;display:flex;align-items:center;gap:30px}.partner-symbol{width:150px;min-width:150px;height:105px;border-radius:20px;background:linear-gradient(135deg,#e6f2ff,#f0eaff);display:flex;align-items:center;justify-content:center;color:#647ee0;font-size:42px}.partner-line{width:25px;height:2px;background:#a5b4ec;margin:0 8px}.competitor-card h3{font-size:25px;margin:7px 0 0}.competitor-card h3 strong{font-size:43px;color:#6680e8}.competitor-card p{color:var(--muted);margin:0}.competitor-side{margin-left:auto;text-align:right;color:#9aa6c1;font-size:10px;letter-spacing:1.5px;line-height:1.8}.competitor-side b{font:600 20px 'Kanit';color:#7d78d9}.criteria-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.criteria-card{position:relative;padding:24px;border-radius:20px;min-height:205px;transition:transform .25s}.criteria-card:hover,.summary-card:hover{transform:translateY(-5px)}.criteria-icon{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#e7f2ff,#f0eaff);display:grid;place-items:center;color:#6c7ee1;font-size:22px}.criteria-no{position:absolute;right:22px;top:23px;font:600 24px 'Kanit';color:#e0e5f4}.criteria-card h3{font-size:18px;margin:17px 0 6px}.criteria-card p{font-size:13px;color:var(--muted);line-height:1.75;margin:0}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.summary-card{padding:21px;border-radius:18px;transition:transform .25s}.summary-card>span{font:600 12px 'Kanit';color:#8293d3}.summary-card h3{font-size:17px;margin:7px 0 5px}.summary-card p{font-size:13px;line-height:1.7;color:var(--muted);margin:0}.quiz-section{padding-top:85px;padding-bottom:90px}.quiz-panel{position:relative
+;overflow:hidden;text-align:center;padding:62px 25px;border-radius:30px;color:#fff;background:linear-gradient(125deg,#3978f6 0%,#6578ef 48%,#9a7ce8 100%);box-shadow:0 25px 65px rgba(82,105,218,.23)}.quiz-panel:before,.quiz-panel:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.18);border-radius:50%;width:360px;height:360px;top:-210px;left:-100px}.quiz-panel:after{width:460px;height:460px;top:auto;left:auto;right:-180px;bottom:-310px}.quiz-panel .eyebrow{color:rgba(255,255,255,.76);position:relative}.quiz-panel h2{font-size:clamp(32px,4.5vw,48px);line-height:1.25;margin:14px 0}.quiz-panel h2 span{color:#e4ddff}.quiz-panel>p{max-width:690px;margin:0 auto 25px;color:rgba(255,255,255,.86);line-height:1.85;font-size:15px;position:relative}.btn-white{background:#fff;color:#5b6ed1;box-shadow:0 12px 25px rgba(30,47,120,.16);position:relative}.quiz-panel small{display:block;margin-top:13px;color:rgba(255,255,255,.7);font-size:11px}.footer{background:linear-gradient(135deg,rgba(222,239,255,.88),rgba(237,229,255,.9));border-top:1px solid rgba(255,255,255,.95);text-align:center;padding:42px 20px 34px}.footer-inner{max-width:800px;margin:auto}.footer-kicker{font-size:10px;letter-spacing:1.8px;color:#8290bd;font-weight:700}.footer p{margin:12px 0 0;font-size:14px;color:#52617f}.footer p strong{font-weight:700}.footer-line{display:block;width:45px;height:3px;border-radius:3px;background:var(--gradient);margin:20px auto 13px}.footer small{font-size:11px;color:#7f8ba7}.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:22px}.modal.open{display:flex;animation:fadeIn .22s ease}.modal-backdrop{position:absolute;inset:0;background:rgba(20,29,56,.72);backdrop-filter:blur(7px)}.modal-panel{position:relative;z-index:1;width:min(900px,100%);max-height:min(88vh,850px);overflow:auto;display:grid;grid-template-columns:.9fr 1.1fr;background:#fff;border:1px solid rgba(255,255,255,.8);border-radius:25px;box-shadow:0 30px 100px rgba(0,0,0,.25);animation:scaleIn .25s ease}
+.modal-close{position:absolute;right:13px;top:12px;z-index:3;width:38px;height:38px;border:0;border-radius:50%;background:rgba(255,255,255,.92);color:#475674;font-size:27px;line-height:1;cursor:pointer;box-shadow:0 5px 16px rgba(0,0,0,.1)}.modal-image-wrap{min-height:400px;background:linear-gradient(135deg,#e5f1ff,#eee8ff);display:flex;align-items:center;justify-content:center;padding:18px}.modal-image-wrap img{width:100%;height:100%;max-height:540px;object-fit:contain;border-radius:15px}.modal-content{padding:42px 36px 34px}.modal-category{display:inline-block;padding:6px 10px;border-radius:30px;background:#eef2ff;color:#697bd1;font-size:10px;font-weight:700}.modal-number{display:block;color:#9aa6c7;font:600 12px 'Kanit';margin-top:17px}.modal-content h2{font-size:31px;line-height:1.25;margin:3px 0}.modal-english{font-size:13px;color:#8793ac;margin:0}.modal-divider{height:1px;background:#e8edf6;margin:22px 0}.modal-content h3{font-size:17px;margin:0 0 8px}.modal-content #modalDescription{font-size:14px;line-height:1.95;color:#5f6c86;margin:0}.no-scroll{overflow:hidden}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:translateY(0)}@keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes scaleIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}@media(max-width:1100px){.nav-links a{font-size:11px;padding:9px 8px}.nav-shell{gap:10px}.hero{min-height:600px}.rhythm-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:820px){.site-header{top:8px;padding:0 12px;margin-top:8px}.nav-shell{min-height:62px;border-radius:19px}.menu-toggle{display:block;margin-left:auto}.nav-links{display:none;position:absolute;top:70px;left:12px;right:12px;padding:12px;background:rgba(255,255,255,.96);border:1px solid #fff;border-radius:18px;box-shadow:var(--shadow);backdrop-filter:blur(18px);flex-direction:column;align-items:stretch;gap:3px}.nav-links.open{display:flex}.nav-links a{font-size:14px;padding:11px 13px}.hero{grid-template-
+columns:1fr;padding-top:55px;gap:0}.hero-copy{text-align:center}.hero-lead,.hero-description{margin-left:auto;margin-right:auto}.hero-actions,.hero-facts{justify-content:center}.hero-art{height:440px;margin-top:12px}.hero-image-frame{height:380px;width:min(82%,410px)}.orbit-a{width:440px;height:440px}.orbit-b{width:380px;height:380px}.note-top{left:4%}.note-bottom{right:3%}.intro-stats{gap:12px}.stat-card{padding:20px}.criteria-grid{grid-template-columns:repeat(2,1fr)}.summary-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.section-wrap{width:calc(100% - 30px)}.hero{padding-top:44px;min-height:auto}.hero h1{font-size:48px}.hero-lead{font-size:17px}.hero-description{font-size:14px}.hero-facts{gap:13px;margin-top:30px}.hero-facts strong{font-size:22px}.hero-facts span{font-size:10px}.hero-art{height:350px}.hero-image-frame{height:310px;width:82%;border-width:6px}.orbit-a{width:350px;height:350px}.orbit-b{width:300px;height:300px}.floating-note{padding:9px 11px;gap:8px}.note-top{top:20px;left:-2px}.note-bottom{bottom:17px;right:-3px}.floating-note b{font-size:11px}.floating-note small{font-size:9px}.note-icon{width:30px;height:30px}.note-number{font-size:21px}.section-block{padding-top:63px}.section-heading{margin-bottom:28px}.section-heading h2{font-size:29px}.section-heading>p{font-size:13px}.intro-quote{padding:28px 22px 23px}.intro-quote p{font-size:14px}.quote-mark{font-size:55px;left:10px}.intro-stats{grid-template-columns:1fr}.stat-card{min-height:0;padding:19px}.type-grid{grid-template-columns:1fr}.type-card{padding:25px;min-height:310px}.type-card h3{font-size:22px}.type-card ol{font-size:13px}.group-heading h3{font-size:17px}.group-pill{font-size:10px;padding:7px 10px}.rhythm-grid{grid-template-columns:1fr;gap:14px}.rhythm-image{height:220px}.rhythm-body{padding:17px}.timeline:before{left:13px}.timeline-item{padding-left:40px}.timeline-dot{left:3px;width:21px;height:21px}.timeline-card{padding:17px}.timeline-card h3{font-size:17px}.timeline-card p{font-size:13px}.history-note{align-items
+:flex-start}.history-full{font-size:13px;padding:17px}.competitor-card{padding:22px;gap:15px;flex-wrap:wrap}.partner-symbol{width:100%;height:82px;min-width:0}.competitor-side{margin-left:0;text-align:left;width:100%}.criteria-grid{grid-template-columns:1fr}.criteria-card{min-height:0}.summary-grid{grid-template-columns:1fr}.quiz-section{padding-top:60px;padding-bottom:65px}.quiz-panel{padding:48px 20px;border-radius:23px}.quiz-panel>p{font-size:13px}.footer{padding:34px 16px}.footer p{font-size:13px}.modal{padding:10px}.modal-panel{display:block;max-height:92vh;border-radius:19px}.modal-image-wrap{min-height:0;height:260px;padding:12px}.modal-image-wrap img{max-height:235px}.modal-content{padding:24px 22px}.modal-content h2{font-size:25px}.modal-content #modalDescription{font-size:13px}.modal-close{right:9px;top:9px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+  </style>
+</head>
+<body>
+  <div class="aurora aurora-one" aria-hidden="true"></div>
+  <div class="aurora aurora-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="เมนูหลัก">
+      <a class="brand" href="#home" aria-label="กลับสู่หน้าแรก">
+        <img src="https://res.cloudinary.com/th2f28gs/image/upload/v1793370272/IMG_feb5ed8c-2719-4186-a234-25117a776e07.png" alt="โลโก้เว็บไซต์กีฬาลีลาศ">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">หน้าแรก</a>
+        <a href="#intro">ความรู้เบื้องต้น</a>
+        <a href="#types">ประเภทของลีลาศ</a>
+        <a href="#rhythms">จังหวะลีลาศ</a>
+        <a href="#history">ประวัติในประเทศไทย</a>
+        <a href="#judging">ผู้แข่งขันและการให้คะแนน</a>
+        <a href="#quiz">แบบทดสอบ</a>
+        <a href="#developer">ผู้พัฒนา</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> PREMIUM INTERACTIVE LEARNING</span>
+        <h1>กีฬาลีลาศ<br><span class="gradient-text">Ballroom Dance</span></h1>
+        <p class="hero-lead">ศาสตร์แห่งการเคลื่อนไหวที่ผสมผสานความงดงาม จังหวะดนตรี และศิลปะการเต้นรำเข้าไว้ด้วยกัน</p>
+        <p class="hero-description">เรียนรู้ความหมาย ประเภท ประวัติความเป็นมา และจังหวะการเต้นทั้ง 11 จังหวะของกีฬาลีลาศ</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#intro">เริ่มเรียนรู้ <span>↗</span></a>
+          <a class="btn btn-secondary" href="#quiz">ไปยังแบบทดสอบ</a>
+        </div>
+        <div class="hero-facts">
+          <div><strong>11</strong><span>จังหวะการเต้น</span></div>
+          <i></i>
+          <div><strong>02</strong><span>ประเภทหลัก</span></div>
+          <i></i>
+          <div><strong>01</strong><span>คู่เต้น</span></div>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+        <div class="hero-image-frame">
+          <img src="https://res.cloudinary.com/th2f28gs/image/upload/v1793373360/file_0000000057e482118787dabdf6a05a2e.png" alt="ภาพตกแต่งหลักของกีฬาลีลาศ">
+        </div>
+        <div class="floating-note note-top"><span class="note-icon">♪</span><span><b>Move with rhythm</b><small>Grace • Balance • Music</small></span></div>
+        <div class="floating-note note-bottom"><span class="note-number">11</span><span><b>Dance rhythms</b><small>Explore every style</small></span></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="intro">
+      <div class="section-heading reveal">
+        <span class="eyebrow">01 / INTRODUCTION</span>
+        <h2>ความรู้เบื้องต้นเกี่ยวกับ<span class="gradient-text">กีฬาลีลาศ</span></h2>
+        <p>ทำความเข้าใจพื้นฐานของกีฬาที่ผสานการเคลื่อนไหว ดนตรี และความสัมพันธ์ของคู่เต้น</p>
+      </div>
+      <div class="intro-quote glass-card reveal">
+        <div class="quote-mark">“</div>
+        <p>กีฬาลีลาศ (Ballroom Dance) คือ กีฬาที่มีท่าทางงดงาม เยื้องกรายพริ้วไหว ตามจังหวะต่าง ๆ ถือกำเนิดขึ้นในหมู่ชนชั้นสูงฝั่งตะวันตก นิยมใช้การเต้นรำเป็นกิจกรรมในงานสังคม</p>
+        <p>มีทั้งหมด 11 จังหวะ แบ่งออกเป็น 2 ประเภท</p>
+      </div>
+      <div class="intro-stats">
+        <article class="stat-card glass-card reveal"><span class="stat-icon">✧</span><strong>ความหมาย</strong><p>กีฬาที่ใช้ท่าทางงดงามและการเคลื่อนไหวตามจังหวะดนตรี</p></article>
+        <article class="stat-card glass-card reveal"><span class="stat-icon">♫</span><strong>11 จังหวะ</strong><p>เรียนรู้จังหวะการเต้นทั้งหมด 11 จังหวะ</p></article>
+        <article class="stat-card glass-card reveal"><span class="stat-icon">Ⅱ</span><strong>2 ประเภท</strong><p>แบ่งเป็นประเภทสแตนดาร์ดและลาตินอเมริกัน</p></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="types">
+      <div class="section-heading reveal">
+        <span class="eyebrow">02 / DANCE CATEGORIES</span>
+        <h2>ประเภทของ<span class="gradient-text">ลีลาศ</span></h2>
+        <p>กีฬาลีลาศแบ่งออกเป็น 2 ประเภท โดยมีจังหวะและเอกลักษณ์แตกต่างกัน</p>
+      </div>
+      <div class="type-grid">
+        <article class="type-card standard-card reveal">
+          <div class="type-top"><span class="type-label">STANDARD / BALLROOM</span><span class="type-count">05</span></div>
+          <h3>สแตนดาร์ด หรือ บอลรูม</h3>
+          <p>Standard or Ballroom Dancing</p>
+          <ol><li>Tango</li><li>Waltz</li><li>Viennese Waltz</li><li>Foxtrot</li><li>Quick Step</li></ol>
+          <div class="type-decoration">S</div>
+        </article>
+        <article class="type-card latin-card reveal">
+          <div class="type-top"><span class="type-label">LATIN AMERICAN</span><span class="type-count">06</span></div>
+          <h3>ลาตินอเมริกัน</h3>
+          <p>Latin American</p>
+          <ol><li>Samba</li><li>Rumba</li><li>Mambo</li><li>Cha Cha Cha</li><li>Jive</li><li>Pasodoble</li></ol>
+          <div class="type-decoration">L</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="rhythms">
+      <div class="section-heading reveal">
+        <span class="eyebrow">03 / THE 11 RHYTHMS</span>
+        <h2>สำรวจจังหวะ<span class="gradient-text">ลีลาศทั้ง 11 จังหวะ</span></h2>
+        <p>เลือกอ่านรายละเอียดของแต่ละจังหวะ ภาพบนการ์ดเป็นภาพปกตกแต่ง และจะแสดงภาพคมชัดเต็มภาพเมื่อเปิดรายละเอียด</p>
+      </div>
+      <div class="rhythm-group">
+        <div class="group-heading reveal"><div><span class="group-kicker">GROUP A</span><h3>Standard or Ballroom Dancing</h3></div><span class="group-pill blue-pill">5 จังหวะ</span></div>
+        <div class="rhythm-grid" id="standardGrid"></div>
+      </div>
+      <div class="rhythm-group">
+        <div class="group-heading reveal"><div><span class="group-kicker">GROUP B</span><h3>Latin American</h3></div><span class="group-pill violet-pill">6 จังหวะ</span></div>
+        <div class="rhythm-grid" id="latinGrid"></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="history">
+      <div class="section-heading reveal">
+        <span class="eyebrow">04 / HISTORY IN THAILAND</span>
+        <h2>ประวัติลีลาศ<span class="gradient-text">ในประเทศไทย</span></h2>
+        <p>เรียงลำดับเหตุการณ์ตามข้อมูลที่ให้ไว้ โดยระบุช่วงเริ่มต้นว่าเป็นข้อสันนิษฐาน</p>
+      </div>
+      <div class="history-note glass-card reveal"><span>i</span><p>ช่วงเริ่มต้นในสมัยรัชกาลที่ 4 เป็นข้อสันนิษฐาน เนื่องจากไม่มีหลักฐานแน่ชัด</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card glass-card"><span class="timeline-date">สมัยรัชกาลที่ 4</span><h3>จุดเริ่มต้นตามข้อสันนิษฐาน</h3><p>ไม่มีหลักฐานแน่ชัด แต่จากการสันนิษฐานเชื่อว่าน่าจะเกิดขึ้นในสมัยพระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัว (รัชกาลที่ 4) โดยมีการบันทึกของหม่อมแอนนา ได้ลองแนะนำให้ท่านรู้จักกับการเต้นของชนชั้นสูง แต่ท่านกลับรู้จักการเต้นชนิดนั้นได้ดีอยู่แล้ว จึงคาดว่าน่าจะทรงศึกษาจากตำราต่างประเทศด้วยพระองค์เอง</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card glass-card"><span class="timeline-date">สมัยรัชกาลที่ 7</span><h3>เริ่มเป็นที่นิยมมากขึ้น</h3><p>ต่อมาลีลาศค่อย ๆ เป็นที่นิยมขึ้นเรื่อย ๆ ในสมัยพระบาทสมเด็จพระปกเกล้าเจ้าอยู่หัว (รัชกาลที่ 7)</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card glass-card"><span class="timeline-date">พ.ศ. 2475</span><h3>จัดตั้งสมาคมสมัครเล่นเต้นรำ</h3><p>มีการจัดตั้งสมาคมสมัครเล่นเต้นรำ โดยมีหม่อมเจ้าไวทยากร วรวรรณ เป็นประธาน และจัดการแข่งขันรำขึ้นที่วังสราญรมย์ โดยมีพลเรือตรี เฉียบ แสงชูโต และคุณประนอม สุขุม เป็นผู้ชนะในครั้งนั้น</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card glass-card"><span class="timeline-date">พ.ศ. 2476</span><h3>บัญญัติคำว่า “ลีลาศ”</h3><p>คำว่า “ลีลาศ” ได้ถูกบัญญัติขึ้นในปี พ.ศ. 2476 และเกิดสมาคมครูลีลาศแห่งประเทศไทยขึ้นมาแทนสมาคมสมัครเล่นเต้นรำ</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card glass-card"><span class="timeline-date">หลังสงครามโลกครั้งที่ 2</span><h3>ความนิยมลดลง</h3><p>หลังจากเกิดสงครามโลกครั้งที่ 2 การเต้นลีลาศก็ซบเซาลง</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-card glass-card"><span class="timeline-date">พ.ศ. 2488</span><h3>กลับมาคึกคักและจดทะเบียนสมาคม</h3><p>การเต้นลีลาศกลับมาคึกคักอีกครั้งในปี พ.ศ. 2488 จนยื่นจดทะเบียนสมาคมเมื่อวันที่ 16 ตุลาคม พ.ศ. 2488 และใช้ชื่อว่า “สมาคมลีลาศแห่งประเทศไทย” ตั้งแต่นั้นมา</p></div></article>
+      </div>
+      <p class="history-full glass-card reveal">ภาพรวม: จากข้อสันนิษฐานในสมัยรัชกาลที่ 4 ลีลาศค่อย ๆ เป็นที่นิยม มีการจัดตั้งสมาคมและบัญญัติคำว่า “ลีลาศ” ก่อนจะซบเซาหลังสงครามโลกครั้งที่ 2 และกลับมาคึกคักอีกครั้งใน พ.ศ. 2488</p>
+    </section>
+
+    <section class="section-wrap section-block" id="competitors">
+      <div class="section-heading reveal">
+        <span class="eyebrow">05 / COMPETITORS</span>
+        <h2>ผู้แข่งขัน<span class="gradient-text">กีฬาลีลาศ</span></h2>
+        <p>รูปแบบผู้แข่งขันตามข้อมูลพื้นฐานของกีฬาลีลาศ</p>
+      </div>
+      <div class="competitor-card glass-card reveal">
+        <div class="partner-symbol"><span>♙</span><span class="partner-line"></span><span>♙</span></div>
+        <div><span class="group-kicker">DANCE PARTNERS</span><h3><strong>1</strong> คู่เต้น</h3><p>เป็นคู่เต้น ชาย 1 คน หญิง 1 คน</p></div>
+        <div class="competitor-side">PARTNERSHIP<br><b>01 + 01</b></div>
+      </div>
+    </section>
+
+      <section class="section-wrap section-block" id="judging">
+      <div class="section-heading reveal">
+        <span class="eyebrow">06 / JUDGING CRITERIA</span>
+        <h2>หลักเกณฑ์การ<span class="gradient-text">ให้คะแนน</span></h2>
+        <p>พิจารณาคุณภาพการเต้นจากองค์ประกอบสำคัญ 5 ด้าน</p>
+      </div>
+      <div class="criteria-grid">
+        <article class="criteria-card glass-card reveal"><span class="criteria-icon">♫</span><span class="criteria-no">01</span><h3>จังหวะและพื้นฐาน</h3><p>การเต้นให้ลงจังหวะกับดนตรี และดูพื้นฐานของการเต้นว่าถูกต้องหรือไม่</p></article>
+        <article class="criteria-card glass-card reveal"><span class="criteria-icon">◎</span><span class="criteria-no">02</span><h3>การทรงตัวและคู่เต้น</h3><p>ดูการทรงตัวของลำตัว มีความสัมพันธ์กับคู่เต้น</p></article>
+        <article class="criteria-card glass-card reveal"><span class="criteria-icon">✧</span><span class="criteria-no">03</span><h3>ความพริ้วไหว</h3><p>ดูการเคลื่อนไหวให้พริ้วไหว สวยงาม</p></article>
+        <article class="criteria-card glass-card reveal"><span class="criteria-icon">⌁</span><span class="criteria-no">04</span><h3>การออกแบบการแสดง</h3><p>การออกแบบการแสดง การเลือกดนตรีประกอบ และการเปลี่ยนท่าในช่วงต่อจังหวะ</p></article>
+        <article class="criteria-card glass-card reveal"><span class="criteria-icon">⌖</span><span class="criteria-no">05</span><h3>การใช้เท้า</h3><p>การใช้เท้าในการเคลื่อนไหว จะต้องถูกต้องตามหลักเกณฑ์</p></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="summary">
+      <div class="section-heading reveal">
+        <span class="eyebrow">07 / KNOWLEDGE RECAP</span>
+        <h2>สรุป<span class="gradient-text">ความรู้</span></h2>
+        <p>ทบทวนประเด็นสำคัญก่อนทำแบบทดสอบ</p>
+      </div>
+      <div class="summary-grid">
+        <article class="summary-card glass-card reveal"><span>01</span><h3>ความหมาย</h3><p>กีฬาที่มีท่าทางงดงาม เยื้องกรายพริ้วไหวตามจังหวะดนตรี</p></article>
+        <article class="summary-card glass-card reveal"><span>02</span><h3>จำนวนจังหวะ</h3><p>มีทั้งหมด 11 จังหวะ แบ่งเป็น 2 ประเภท</p></article>
+        <article class="summary-card glass-card reveal"><span>03</span><h3>Standard / Ballroom</h3><p>Tango, Waltz, Viennese Waltz, Foxtrot และ Quick Step รวม 5 จังหวะ</p></article>
+        <article class="summary-card glass-card reveal"><span>04</span><h3>Latin American</h3><p>Samba, Rumba, Mambo, Cha Cha Cha, Jive และ Pasodoble รวม 6 จังหวะ</p></article>
+        <article class="summary-card glass-card reveal"><span>05</span><h3>ประวัติในประเทศไทย</h3><p>มีข้อสันนิษฐานถึงรัชกาลที่ 4 ต่อมามีสมาคมใน พ.ศ. 2475 บัญญัติคำว่าลีลาศใน พ.ศ. 2476 และจดทะเบียนสมาคมใน พ.ศ. 2488</p></article>
+        <article class="summary-card glass-card reveal"><span>06</span><h3>ผู้แข่งขัน</h3><p>เป็นคู่เต้น ชาย 1 คน หญิง 1 คน</p></article>
+        <article class="summary-card glass-card reveal"><span>07</span><h3>การให้คะแนน</h3><p>พิจารณาจังหวะ พื้นฐาน การทรงตัว ความสัมพันธ์ ความพริ้วไหว การออกแบบ และการใช้เท้า</p></article>
+      </div>
+    </section>
+
+    <section class="section-wrap quiz-section" id="quiz">
+      <div class="quiz-panel reveal">
+        <div class="quiz-orb"></div>
+        <span class="eyebrow">READY TO TEST YOUR KNOWLEDGE?</span>
+        <h2>พร้อมทบทวนความรู้<br><span>แล้วหรือยัง?</span></h2>
+        <p>ทบทวนความรู้เกี่ยวกับกีฬาลีลาศทั้ง 11 จังหวะ ประเภทของลีลาศ ประวัติความเป็นมา ผู้แข่งขัน และหลักเกณฑ์การให้คะแนน ผ่านแบบทดสอบออนไลน์</p>
+        <a class="btn btn-white" href="https://quiz-bll.vercel.app" target="_blank" rel="noopener noreferrer">ไปยังแบบทดสอบ <span>↗</span></a>
+        <small>แบบทดสอบจะเปิดในแท็บใหม่</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="developer">
+    <div class="footer-inner">
+      <span class="footer-kicker">BALLROOM DANCE • EDUCATIONAL WEBSITE</span>
+      <p><strong>พัฒนาระบบ : นายนันทกร มาตรี ม.6/1 เลขที่ 8</strong></p>
+      <p>โรงเรียนโกรกพระ สพม.นครสวรรค์</p>
+      <span class="footer-line"></span>
+      <small>เรียนรู้จังหวะ เข้าใจศิลปะ และเคลื่อนไหวอย่างมีความหมาย</small>
+    </div>
+  </footer>
+
+  <div class="modal" id="rhythmModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" id="modalClose" aria-label="ปิดรายละเอียด">×</button>
+      <div class="modal-image-wrap"><img id="modalImage" src="" alt=""></div>
+      <div class="modal-content">
+        <span class="modal-category" id="modalCategory"></span>
+        <span class="modal-number" id="modalNumber"></span>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-english" id="modalEnglish"></p>
+        <div class="modal-divider"></div>
+        <h3>รายละเอียดประวัติ</h3>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+// Central data: image URLs are kept exactly as supplied.
+const LOGO_URL = "https://res.cloudinary.com/th2f28gs/image/upload/v1793370272/IMG_feb5ed8c-2719-4186-a234-25117a776e07.png";
+const HERO_IMAGE_URL = "https://res.cloudinary.com/th2f28gs/image/upload/v1793373360/file_0000000057e482118787dabdf6a05a2e.png";
+const QUIZ_URL = "https://quiz-bll.vercel.app";
+
+const danceData = [
+  {
+    id: 1, group: "Standard or Ballroom Dancing", category: "สแตนดาร์ด หรือ บอลรูม",
+    thai: "แทงโก้", english: "Tango",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370891/file_00000000335c821197897a7bd2aea6d4.png",
+    short: "จังหวะที่มีที่มาจากมิลองก้า และได้รับการเปลี่ยนชื่อเป็นแทงโก้",
+    description: "เดิมคือ จังหวะมิลองก้า (Milonga) ใช้เต้นในโรงละครเล็ก ๆ แต่เมื่อชนชั้นสูงจากประเทศบราซิลไปพบเข้า จึงเริ่มมีการนำมาเต้นมากขึ้น และมีการถูกเปลี่ยนชื่อเป็น จังหวะแทงโก้ (Tango)"
+  },
+  {
+    id: 2, group: "Standard or Ballroom Dancing", category: "สแตนดาร์ด หรือ บอลรูม",
+    thai: "วอลซ์", english: "Waltz",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370894/file_00000000687482119960f30448df2940.png",
+    short: "มีชื่อเรียกว่าบอสตัน วอลซ์ ก่อนกลับมาได้รับความนิยมอีกครั้ง",
+    description: "กำเนิดขึ้นในปี ค.ศ. 1910 - 1914 ที่ บอสตันคลับ ในโรงแรมซาวอย ประเทศอังกฤษ มีชื่อเรียกว่า บอสตัน วอลซ์ (Boston Waltz) ก่อนที่จะเสื่อมสลายไป และกลับมามีชีวิตชีวาอีกครั้งในช่วงสงครามโลกครั้งที่ 1 และดัดแปลงท่าเต้นให้เข้ากับยุคสมัย"
+  },
+  {
+    id: 3, group: "Standard or Ballroom Dancing", category: "สแตนดาร์ด หรือ บอลรูม",
+    thai: "ควิกซ์วอลซ์ (Waltz) หรือ เวียนนีสวอลซ์", english: "Viennese Waltz",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370894/file_0000000020708211a51cdf1ee47a0398.png",
+    short: "จังหวะที่ใช้พลังสูง เน้นการรักษาจังหวะให้ต่อเนื่อง",
+    description: "กำเนิดขึ้นทางตอนใต้ของประเทศเยอรมนี ในยุค 60s จังหวะที่ใช้พลังสูง มีความเร็วถึง 60 บาร์ต่อนาที โดยเน้นการรักษาจังหวะให้ต่อเนื่อง การเต้นที่อิสระ"
+  },
+  {
+    id: 4, group: "Standard or Ballroom Dancing", category: "สแตนดาร์ด หรือ บอลรูม",
+    thai: "ฟอกซ์ทรอต", english: "Foxtrot",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370894/file_0000000068a482119489d63337834248.png",
+    short: "เริ่มต้นก่อนสงครามโลกครั้งที่ 1 และได้รับการดัดแปลงจนแพร่หลาย",
+    description: "เริ่มต้นขึ้นก่อนสงครามโลกครั้งที่ 1 ในทวีปยุโรป โดย แฮรี่ ฟอกซ์ (Harry Fox) และถูกดัดแปลงโดย แฟรงค์ ฟอร์ด (Frank Ford) ประมาณ ปี ค.ศ. 1922 - 1929 จนแพร่หลาย"
+  },
+  {
+    id: 5, group: "Standard or Ballroom Dancing", category: "สแตนดาร์ด หรือ บอลรูม",
+    thai: "ควิกซ์สเตป", english: "Quick Step",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370893/file_0000000059ec8207860301a027a1e8ee.png",
+    short: "แตกแขนงมาจาก Foxtrot และเริ่มแพร่หลายประมาณ ค.ศ. 1928",
+    description: "เป็นจังหวะที่แตกแขนงมาจาก Foxtrot เนื่องจากฟอกซ์ทรอตมีความเร็วค่อนข้างสูงถึง 50 บาร์ต่อนาที ทำให้นักดนตรีเล่นได้ยาก จึงปรับลดจังหวะและนำผสมผสานกันจนเกิดเป็นจังหวะ Quick Step เริ่มแพร่หลายประมาณ ปี ค.ศ. 1928 เป็นต้นมา"
+  },
+  {
+    id: 6, group: "Latin American", category: "ลาตินอเมริกัน",
+    thai: "แซมบ้า", english: "Samba",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370913/IMG_20261030_191149.png",
+    short: "มีต้นแบบจากแถบแอฟริกา และพัฒนาเป็นที่นิยมในบราซิล",
+    description: "มีต้นแบบมาจากแถบแอฟริกา ถูกพัฒนาเป็นที่นิยมในประเทศบราซิล ได้ถูกยอมรับให้เป็นจังหวะที่สามารถเข้าแข่งขันในมหกรรมการแสดงระดับโลกที่นิวยอร์ค เมื่อ ปี ค.ศ. 1939 และอีกสิบปีต่อมาถูกยอมรับอย่างแพร่หลายใน ปี ค.ศ. 1948 - 1949"
+  },
+  {
+    id: 7, group: "Latin American", category: "ลาตินอเมริกัน",
+    thai: "รุมบ้า", english: "Rumba",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370892/file_000000003c288211819dd3d2bd002b0c.png",
+    short: "ถูกนำเข้าสู่อเมริกาโดยทาสชาวแอฟริกันและพัฒนาต่อจนเป็นที่ยอมรับ",
+    description: "ถูกนำเข้าไปยังประเทศอเมริกาโดยทาสชาวแอฟริกัน และถูกพัฒนาต่อจนมีตำราการเต้นรำเกิดขึ้น ซึ่งเป็นที่แพร่หลายทำให้ Rumba ได้รับการยอมรับ"
+  },
+  {
+    id: 8, group: "Latin American", category: "ลาตินอเมริกัน",
+    thai: "แมมโบ้", english: "Mambo",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370910/IMG_20261030_191259.png",
+    short: "ผสมผสานการเต้นแบบแอฟริกันและคิวบัน ก่อนแพร่หลายในเม็กซิโก",
+    description: "ตั้งขึ้นจากชื่อของหมอผีในประเทศเฮติ เป็นการผสมผสานการเต้นในแบบ แอฟริกัน + คิวบัน และนิยมเต้นกันในคิวบา แพร่หลายเมื่อ เปเรซ ปราโด (Perez Prado) นักดนตรีชาวคิวบา นำเอาจังหวะนี้มาเล่นในประเทศเม็กซิโก และได้รับการบันทึกเป็นแผ่นเสียง ในปี ค.ศ. 1951 ถูกเรียกว่าเป็น “ราชาแห่งแมมโบ้ (Mambo King)”"
+  },
+  {
+    id: 9, group: "Latin American", category: "ลาตินอเมริกัน",
+    thai: "ชะ ชะ ช่า", english: "Cha Cha Cha",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370910/file_0000000062cc8207a192c855e57adf64.png",
+    short: "พัฒนามาจากแมมโบ้ โดยเลียนเสียงรองเท้ากระทบพื้น",
+    description: "ถูกพัฒนามาจากจังหวะแมมโบ้ ตั้งขึ้นจากการเลียนเสียงรองเท้ากระทบพื้นขณะเต้นรำ พบเห็นครั้งแรกที่ประเทศอเมริกาและแพร่หลายไปยังแถบยุโรป จากนั้นได้รับความนิยมอย่างจริงจังในช่วงปี ค.ศ. 1956 ก่อนจะถูกตัดทอนชื่อลงเป็น “ชาช่า (Cha Cha)”"
+  },
+  {
+    id: 10, group: "Latin American", category: "ลาตินอเมริกัน",
+    thai: "ไจว์ฟ", english: "Jive",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370917/IMG_20261030_191335.png",
+    short: "เน้นจังหวะจะโคนและการสวิง ใช้พลังและความสนุกในการเต้น",
+    description: "กำเนิดขึ้นในนิวยอร์ก ราวปี ค.ศ. 1940 เป็นการเน้นจังหวะจะโคน และการสวิง โดยดัดแปลงมาจากดนตรีในหลายจังหวะ ทั้ง ร็อกแอนด์โรล แอฟริกัน และอเมริกันสวิง เป็นต้น ซึ่งจะเน้นการดีด สะบัด และเตะปลายเท้า ใช้ความสนุกในการเต้นและใช้พลังสูง"
+  },
+  {
+    id: 11, group: "Latin American", category: "ลาตินอเมริกัน",
+    thai: "ปาโซโดเบล", english: "Pasodoble",
+    image: "https://res.cloudinary.com/th2f28gs/image/upload/v1793370918/file_00000000830882118ce0ec1aac876cf9.png",
+    short: "จังหวะ 2/4 คล้ายมาร์ชของสเปน มีภาพลักษณ์เชื่อมโยงกับการสู้วัวกระทิง",
+    description: "เป็นดนตรีที่มีจังหวะ 2/4 คล้ายมาร์ชของสเปน ใช้ในช่วงพิธีกรรม ที่นักสู้วัวกระทิงกำลังเดินลงสู่สนาม และขณะกำลังจะฆ่ากระทิง ก่อนจะพัฒนามาเป็นจังหวะเต้นรำ โดยฝ่ายชายจะเปรียบเสมือนนักสู้วัวกระทิงที่จะบังคับร่างของคู่เต้น ซึ่งเสมือนผ้าสีแดงให้แกว่งไปมาในลักษณะเดียวกับกำลังสะบัดผ้า เพื่อยั่ววัวกระทิง และจะเต้นโดยการย้ำส้นเท้านำเป็นจังหวะอย่างเร็ว ไม่ค่อยใช้สะโพกเคลื่อนไหวเท่าไหร่นัก"
+  }
+];
+    const standardGrid = document.getElementById("standardGrid");
+const latinGrid = document.getElementById("latinGrid");
+
+function makeRhythmCard(item) {
+  const card = document.createElement("article");
+  card.className = "rhythm-card reveal";
+  card.innerHTML = `
+    <div class="rhythm-image">
+      <img src="${item.image}" alt="ภาพประกอบจังหวะ${item.thai} (${item.english})" loading="lazy" decoding="async">
+      <span class="image-fallback" aria-hidden="true">Ballroom Dance</span>
+    </div>
+    <div class="rhythm-body">
+      <div class="rhythm-meta"><span class="rhythm-index">RHYTHM ${String(item.id).padStart(2,"0")}</span><span class="rhythm-tag">${item.category}</span></div>
+      <h4>${item.thai}</h4>
+      <p class="english">${item.english}</p>
+      <p class="short">${item.short}</p>
+      <button class="detail-btn" type="button" data-rhythm-id="${item.id}">อ่านรายละเอียด ↗</button>
+    </div>`;
+  const img = card.querySelector("img");
+  const fallback = card.querySelector(".image-fallback");
+  img.addEventListener("load", () => fallback.hidden = true);
+  img.addEventListener("error", () => { img.hidden = true; fallback.textContent = "ไม่สามารถโหลดภาพได้"; });
+  return card;
+}
+
+danceData.forEach(item => {
+  const target = item.group === "Standard or Ballroom Dancing" ? standardGrid : latinGrid;
+  target.appendChild(makeRhythmCard(item));
+});
+
+const modal = document.getElementById("rhythmModal");
+const modalImage = document.getElementById("modalImage");
+const modalClose = document.getElementById("modalClose");
+let lastFocusedElement = null;
+
+function openModal(id) {
+  const item = danceData.find(dance => dance.id === Number(id));
+  if (!item) return;
+  lastFocusedElement = document.activeElement;
+  modalImage.src = item.image;
+  modalImage.alt = `ภาพจังหวะ${item.thai} (${item.english})`;
+  modalImage.onerror = () => { modalImage.alt = "ไม่สามารถโหลดภาพประกอบได้"; };
+  document.getElementById("modalCategory").textContent = item.category;
+  document.getElementById("modalNumber").textContent = `RHYTHM ${String(item.id).padStart(2,"0")}`;
+  document.getElementById("modalTitle").textContent = item.thai;
+  document.getElementById("modalEnglish").textContent = item.english;
+  document.getElementById("modalDescription").textContent = item.description;
+  modal.classList.add("open");
+  modal.setAttribute("aria-hidden","false");
+  document.body.classList.add("no-scroll");
+  modalClose.focus();
+}
+function closeModal() {
+  modal.classList.remove("open");
+  modal.setAttribute("aria-hidden","true");
+  document.body.classList.remove("no-scroll");
+  if (lastFocusedElement) lastFocusedElement.focus();
+}
+document.addEventListener("click", event => {
+  const trigger = event.target.closest("[data-rhythm-id]");
+  if (trigger) openModal(trigger.dataset.rhythmId);
+  if (event.target.matches("[data-close-modal]")) closeModal();
+});
+modalClose.addEventListener("click", closeModal);
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && modal.classList.contains("open")) closeModal();
+});
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+menuToggle.addEventListener("click", () => {
+  const isOpen = navLinks.classList.toggle("open");
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+  menuToggle.setAttribute("aria-label", isOpen ? "ปิดเมนู" : "เปิดเมนู");
+});
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuToggle.setAttribute("aria-expanded","false");
+  });
+});
+
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, {threshold: 0.08});
+document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+const sectionLinks = [...document.querySelectorAll(".nav-links a")];
+const sectionObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      sectionLinks.forEach(link => link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`));
+    }
+  });
+}, {rootMargin:"-25% 0px -65% 0px"});
+["home","intro","types","rhythms","history","judging","quiz","developer"].forEach(id => {
+  const section = document.getElementById(id);
+  if (section) sectionObserver.observe(section);
+});
+
+  </script>
+</body>
+</html>
